@@ -1,0 +1,71 @@
+*{
+ text-align: center;
+margin:0;
+/* max-height: 100vw; */
+/* max-width: 100vw; */
+color: white;
+font-size: 32px;
+text-align: center;
+
+}
+.container{
+    gap:10px;
+    display: grid;
+grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.header{
+    grid-column: 1/4;
+    grid-row:1/2;
+    background-color: rgb(35, 212, 255);
+    min-height: 90px;
+    
+    /* width: 100vw; */
+}
+
+.hero{
+grid-column: 1/2;
+ grid-row-start:2/4 ;
+ background-color: rgb(233, 202, 221);
+ min-height: 300px;
+}
+.sidebar{
+    grid-column: 1/2;
+    grid-row:3/5 ;
+    background-color: rgb(128, 194, 104);
+    min-height: 400px;
+   }
+.relatedimgs{
+    grid-column: 1/3;
+    grid-row: 5/6;
+    background-color: rgb(0, 182, 141);
+    min-height: 200px;
+}
+
+.footer{
+    grid-column: 1/4;
+    grid-row: 6/7;
+    height: 90px;
+    background-color: rgb(254, 165, 0);
+}
+.main{
+    grid-column: 2/4;
+    grid-row:2/4 ;
+    background-color: rgb(237, 197, 39);
+    min-height: 500px;
+}
+.extra{
+    grid-column: 2/4;
+    grid-row: 4/5 ;
+    background-color: rgb(137, 137, 135);
+    min-height: 200px;
+
+}
+.relatedposts {
+    grid-column: 3/4;
+    grid-row: 5/6 ;
+    background-color: rgb(255, 205, 212);
+    min-height: 200px;
+
+}
+
